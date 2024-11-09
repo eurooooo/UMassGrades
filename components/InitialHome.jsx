@@ -1,10 +1,8 @@
 "use client";
 
-import SearchBar from "./SearchBar";
-import { useState } from "react";
+import SearchWithDropdown from "./SearchWithDropdown";
 
 export default function InitialHome() {
-  const [searchQuery, setSearchQuery] = useState("");
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50">
       <div className="container max-w-4xl px-4 py-12 mx-auto">
@@ -18,11 +16,7 @@ export default function InitialHome() {
               Massachusetts, Amherst.
             </p>
           </div>
-          <SearchBar
-            searchQuery={searchQuery}
-            setSearchQuery={setSearchQuery}
-            isHome={true}
-          />
+          <SearchWithDropdown isHome={true} />
         </div>
       </div>
     </div>
