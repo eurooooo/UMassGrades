@@ -10,6 +10,7 @@ import {
   formatGradeData,
   mergeGrades,
 } from "@/lib/grade";
+import SearchWithDropdown from "@/components/SearchWithDropdown";
 
 const classInfo = {
   classId: "CS200",
@@ -104,7 +105,7 @@ export default function ClassSlug() {
   return (
     <div className="min-h-screen bg-gray-50 ">
       <div className="container px-4 py-8 mx-auto max-w-7xl">
-        <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+        <SearchWithDropdown />
 
         <Overview />
 
