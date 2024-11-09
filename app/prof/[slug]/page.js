@@ -8,6 +8,7 @@ import {
   mergeGrades,
 } from "@/lib/grade";
 import SearchWithDropdown from "@/components/SearchWithDropdown";
+import Link from "next/link";
 
 const professors = {
   profId: 1,
@@ -85,9 +86,15 @@ export default function ProfSlug() {
 
         <OverallCard overallData={overallData} />
 
-        {grades.map((grade) => (
-          <ClassCard clazz={grade} key={grade.name} />
-        ))}
+        <ul>
+          {grades.map((grade) => (
+            <li key={grade.id}>
+              <Link href={`/class/${grade.id}`}>
+                <ClassCard clazz={grade} />
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
