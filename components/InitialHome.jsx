@@ -8,11 +8,11 @@ export default function InitialHome() {
       <div className="space-y-8">
         <div className="space-y-2">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-[#7A0019]">
-            Gopher Grades!
+            UMass Grades
           </h1>
           <p className="text-lg text-muted-foreground">
             View all the past grades for classes taken at the University of
-            Minnesota, Twin Cities.
+            Massachusetts, Amherst.
           </p>
         </div>
 
