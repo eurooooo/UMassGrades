@@ -27,27 +27,27 @@ export function OverallCard({
   );
 }
 
-export function ClassCard({ prof, key }) {
+export function ClassCard({ clazz, key }) {
   return (
     <Card key={key} className="mb-4">
       <CardHeader>
         <div className="flex items-center justify-between">
           <div>
-            <CardTitle>{prof.name}</CardTitle>
+            <CardTitle>{`${clazz.id} ${clazz.name}`}</CardTitle>
           </div>
           <span className="text-sm text-gray-500">
-            {prof.students} STUDENTS
+            {clazz.students} STUDENTS
           </span>
         </div>
       </CardHeader>
       <CardContent>
         <div className="flex gap-2 mb-4 h-fit">
-          <Badge variant="secondary">{prof.average}</Badge>
+          <Badge variant="secondary">{clazz.average}</Badge>
           <Badge variant="secondary" className="bg-green-100">
-            {prof.common}
+            {clazz.common}
           </Badge>
         </div>
-        <GradePieChart data={prof.gradeData} />
+        <GradePieChart data={clazz.gradeData} />
       </CardContent>
     </Card>
   );

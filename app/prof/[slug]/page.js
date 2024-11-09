@@ -52,6 +52,7 @@ const professors = {
 
 const grades = professors.classes.map((clazz) => {
   return {
+    id: clazz.classId,
     name: clazz.className,
     students: clazz.grades.reduce(
       (accumulator, currentValue) => accumulator + currentValue.count,
@@ -84,8 +85,8 @@ export default function ProfSlug() {
 
         <OverallCard overallData={overallData} />
 
-        {grades.map((instructor) => (
-          <ClassCard prof={instructor} key={instructor.name} />
+        {grades.map((grade) => (
+          <ClassCard clazz={grade} key={grade.name} />
         ))}
       </div>
     </div>
