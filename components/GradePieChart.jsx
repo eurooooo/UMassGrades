@@ -1,16 +1,5 @@
-import {
-  PieChart,
-  Pie,
-  Cell,
-  ResponsiveContainer,
-  Tooltip,
-  Legend,
-} from "recharts";
-import {
-  ChartContainer,
-  ChartLegend,
-  ChartLegendContent,
-} from "@/components/ui/chart";
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
+import { ChartContainer } from "@/components/ui/chart";
 
 export default function GradePieChart({ data }) {
   return (
