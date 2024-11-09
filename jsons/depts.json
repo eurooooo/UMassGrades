@@ -1,0 +1,82 @@
+[
+  {
+    "deptId": "CS",
+    "deptName": "Computer Science",
+    "classes": [
+      {
+        "classId": "CS200",
+        "className": "Operating System",
+        "grades": [
+          { "grade": "A", "count": 3 },
+          { "grade": "A-", "count": 2 },
+          { "grade": "B+", "count": 4 },
+          { "grade": "B", "count": 5 },
+          { "grade": "B-", "count": 2 },
+          { "grade": "C+", "count": 3 },
+          { "grade": "C", "count": 2 },
+          { "grade": "C-", "count": 1 },
+          { "grade": "D+", "count": 1 },
+          { "grade": "D", "count": 0 },
+          { "grade": "F", "count": 0 }
+        ]
+      },
+      {
+        "classId": "CS300",
+        "className": "Algorithms",
+        "grades": [
+          { "grade": "A", "count": 6 },
+          { "grade": "A-", "count": 4 },
+          { "grade": "B+", "count": 5 },
+          { "grade": "B", "count": 3 },
+          { "grade": "B-", "count": 2 },
+          { "grade": "C+", "count": 3 },
+          { "grade": "C", "count": 1 },
+          { "grade": "C-", "count": 1 },
+          { "grade": "D+", "count": 0 },
+          { "grade": "D", "count": 1 },
+          { "grade": "F", "count": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "deptId": "MATH",
+    "deptName": "Mathematics",
+    "classes": [
+      {
+        "classId": "MATH101",
+        "className": "Calculus I",
+        "grades": [
+          { "grade": "A", "count": 7 },
+          { "grade": "A-", "count": 5 },
+          { "grade": "B+", "count": 4 },
+          { "grade": "B", "count": 3 },
+          { "grade": "B-", "count": 1 },
+          { "grade": "C+", "count": 2 },
+          { "grade": "C", "count": 1 },
+          { "grade": "C-", "count": 0 },
+          { "grade": "D+", "count": 0 },
+          { "grade": "D", "count": 1 },
+          { "grade": "F", "count": 0 }
+        ]
+      },
+      {
+        "classId": "MATH201",
+        "className": "Linear Algebra",
+        "grades": [
+          { "grade": "A", "count": 5 },
+          { "grade": "A-", "count": 4 },
+          { "grade": "B+", "count": 3 },
+          { "grade": "B", "count": 3 },
+          { "grade": "B-", "count": 2 },
+          { "grade": "C+", "count": 3 },
+          { "grade": "C", "count": 2 },
+          { "grade": "C-", "count": 1 },
+          { "grade": "D+", "count": 0 },
+          { "grade": "D", "count": 0 },
+          { "grade": "F", "count": 1 }
+        ]
+      }
+    ]
+  }
+]

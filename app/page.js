@@ -6,15 +6,15 @@ export default async function page() {
   const data = await res.json();
 
   return (
-    <ul>
-      {data.map((pro) => (
-        <li key={pro.id}>
-          <p>
-            id:{pro.id} name: {pro.name}
-          </p>
-        </li>
-      ))}
-    </ul>
+    // <ul>
+    //   {data.map((pro) => (
+    //     <li key={pro.id}>
+    //       <p>
+    //         id:{pro.id} name: {pro.name}
+    //       </p>
+    //     </li>
+    //   ))}
+    // </ul>
+    <InitialHome />
   );
-  // <InitialHome />;
 }

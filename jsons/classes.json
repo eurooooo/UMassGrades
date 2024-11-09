@@ -1,0 +1,91 @@
+[
+  {
+    "classId": "CS200",
+    "className": "Operating System",
+    "description": "Rigorous analysis of algorithms/implementation.",
+    "profs": [
+      {
+        "profId": 1,
+        "profName": "Alex",
+        "grades": [
+          { "grade": "A", "count": 5 },
+          { "grade": "A-", "count": 4 },
+          { "grade": "B+", "count": 3 },
+          { "grade": "B", "count": 3 },
+          { "grade": "B-", "count": 2 },
+          { "grade": "C+", "count": 3 },
+          { "grade": "C", "count": 2 },
+          { "grade": "C-", "count": 1 },
+          { "grade": "D+", "count": 0 },
+          { "grade": "D", "count": 0 },
+          { "grade": "F", "count": 1 }
+        ]
+      },
+      {
+        "profId": 2,
+        "profName": "Bob",
+        "grades": [
+          { "grade": "A", "count": 5 },
+          { "grade": "A-", "count": 4 },
+          { "grade": "B+", "count": 3 },
+          { "grade": "B", "count": 3 },
+          { "grade": "B-", "count": 2 },
+          { "grade": "C+", "count": 3 },
+          { "grade": "C", "count": 2 },
+          { "grade": "C-", "count": 1 },
+          { "grade": "D+", "count": 0 },
+          { "grade": "D", "count": 0 },
+          { "grade": "F", "count": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "classId": "CS300",
+    "className": "Algorithms",
+    "description": "Advanced concepts and design techniques.",
+    "profs": [
+      {
+        "profId": 3,
+        "profName": "Charlie",
+        "grades": [
+          { "grade": "A", "count": 6 },
+          { "grade": "A-", "count": 3 },
+          { "grade": "B+", "count": 4 },
+          { "grade": "B", "count": 3 },
+          { "grade": "B-", "count": 2 },
+          { "grade": "C+", "count": 2 },
+          { "grade": "C", "count": 1 },
+          { "grade": "C-", "count": 1 },
+          { "grade": "D+", "count": 0 },
+          { "grade": "D", "count": 1 },
+          { "grade": "F", "count": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "classId": "MATH201",
+    "className": "Linear Algebra",
+    "description": "Introduction to vector spaces and matrices.",
+    "profs": [
+      {
+        "profId": 4,
+        "profName": "Diana",
+        "grades": [
+          { "grade": "A", "count": 7 },
+          { "grade": "A-", "count": 5 },
+          { "grade": "B+", "count": 4 },
+          { "grade": "B", "count": 3 },
+          { "grade": "B-", "count": 2 },
+          { "grade": "C+", "count": 2 },
+          { "grade": "C", "count": 1 },
+          { "grade": "C-", "count": 0 },
+          { "grade": "D+", "count": 0 },
+          { "grade": "D", "count": 0 },
+          { "grade": "F", "count": 0 }
+        ]
+      }
+    ]
+  }
+]
