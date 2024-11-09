@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import GradePieChart from "./GradePieChart";
 import { Badge } from "./ui/badge";
+import PieChartLegend from "./PieChartLegend";
 
 export function OverallCard({
   overallData: { students, average, common, gradeData },
@@ -25,6 +26,7 @@ export function OverallCard({
         </p>
 
         <GradePieChart data={gradeData} />
+        <PieChartLegend />
       </CardContent>
     </Card>
   );
