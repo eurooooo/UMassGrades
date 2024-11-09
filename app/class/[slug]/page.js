@@ -8,6 +8,7 @@ import {
   mergeGrades,
 } from "@/lib/grade";
 import SearchWithDropdown from "@/components/SearchWithDropdown";
+import Link from "next/link";
 
 const classInfo = {
   classId: "CS200",
@@ -51,8 +52,9 @@ const classInfo = {
   ],
 };
 
-const grades = classInfo.profs.map((prof) => {
+const profs = classInfo.profs.map((prof) => {
   return {
+    id: prof.profId,
     name: prof.profName,
     students: prof.grades.reduce(
       (accumulator, currentValue) => accumulator + currentValue.count,
@@ -106,9 +108,15 @@ export default function ClassSlug() {
 
         <OverallCard overallData={overallData} />
 
-        {grades.map((instructor) => (
-          <ProfCard prof={instructor} key={instructor.name} />
-        ))}
+        <ul>
+          {profs.map((prof) => (
+            <li key={prof.id}>
+              <Link href={`/prof/${prof.id}`}>
+                <ProfCard prof={prof} key={prof.name} />
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

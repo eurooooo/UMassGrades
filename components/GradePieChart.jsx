@@ -12,7 +12,7 @@ export default function GradePieChart({ data }) {
           ])
         ),
       }}
-      className="h-[200px]"
+      className="h-[200px] w-[200px]"
     >
       <ResponsiveContainer width="100%" height="100%">
         <PieChart>
@@ -30,13 +30,8 @@ export default function GradePieChart({ data }) {
             ))}
           </Pie>
           <Tooltip content={<CustomTooltip />} />
-          {/* <Legend /> */}
         </PieChart>
       </ResponsiveContainer>
-      {/* <ChartLegend
-        content={<ChartLegendContent nameKey="grade" />}
-        className="flex-wrap gap-2 [&>*]:basis-1/4 [&>*]:justify-center"
-      /> */}
     </ChartContainer>
   );
 }
