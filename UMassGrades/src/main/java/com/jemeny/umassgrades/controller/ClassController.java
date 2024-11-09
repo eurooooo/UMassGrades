@@ -1,4 +1,3 @@
-
 package com.jemeny.umassgrades.controller;
 
 import com.jemeny.umassgrades.model.ClassEntity;
@@ -34,13 +33,7 @@ public class ClassController {
         }
 
         Map<String, Object> response = new HashMap<>();
-        response.put("gradeDistribution", classService.getGradeDistribution(classData.grades()));
-        response.put("statistics", Map.of(
-                "mean", classService.calculateMean(classData.grades()),
-                "median", classService.calculateMedian(classData.grades()),
-                "stdDev", classService.calculateStandardDeviation(classData.grades())
-        ));
-
+        response.put("gradeDistribution", classService.getGradeDistribution(classData.getGrades()));
         return response;
     }
 }
