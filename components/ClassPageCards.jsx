@@ -35,15 +35,15 @@ export function ProfCard({ prof, key }) {
         <div className="flex items-center justify-between">
           <div>
             <CardTitle>{prof.name}</CardTitle>
-            <div className="text-sm text-gray-500">{prof.semester}</div>
+            {/* <div className="text-sm text-gray-500">{prof.semester}</div> */}
           </div>
           <span className="text-sm text-gray-500">
             {prof.students} STUDENTS
           </span>
         </div>
       </CardHeader>
-      <CardContent>
-        <div className="flex gap-2 mb-4">
+      <CardContent className="flex">
+        <div className="flex gap-2 mb-4 h-fit">
           <Badge variant="secondary">{prof.average}</Badge>
           <Badge variant="secondary" className="bg-green-100">
             {prof.common}
