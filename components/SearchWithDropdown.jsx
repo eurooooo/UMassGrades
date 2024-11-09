@@ -110,7 +110,7 @@ export default function SearchWithDropdown({ isHome }) {
                 {searchResults.professors.map((p) => (
                   <Link
                     key={p.id}
-                    href={`/professor/${p.id}`}
+                    href={`/prof/${p.id}`}
                     className="block px-4 py-2 text-sm text-gray-700 rounded hover:bg-gray-100"
                   >
                     {p.name}

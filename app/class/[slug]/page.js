@@ -1,8 +1,5 @@
 "use client";
 
-import { useState } from "react";
-
-import SearchBar from "@/components/SearchBar";
 import { OverallCard, ProfCard } from "@/components/ClassPageCards";
 import {
   calculateAverageGPA,
@@ -100,8 +97,6 @@ const overallData = {
 // ];
 
 export default function ClassSlug() {
-  const [searchQuery, setSearchQuery] = useState("");
-
   return (
     <div className="min-h-screen bg-gray-50 ">
       <div className="container px-4 py-8 mx-auto max-w-7xl">
