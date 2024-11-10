@@ -12,7 +12,7 @@
     </p>
     <h2>Inspiration</h2>
 <p>We drew inspiration from <a href="https://github.com/samyok/gophergrades">GopherGrades</a>, a platform widely used at the 
-University of Minnesota that has over 50,000 users.Noticing that UMass Amherst lacks a similar resource, we wanted to create 
+University of Minnesota that has over 50,000 users. Noticing that UMass Amherst lacks a similar resource, we wanted to create 
 a tool to help students make more informed decisions 
 when choosing courses or instructors. Our platform will enable students to view grade distributions, averages, and most common 
 grade for each course and professor—information that can play a crucial role in academic planning.</p>
@@ -41,7 +41,7 @@ cd UMassGrades</code></pre>
 <li><a href="https://docs.docker.com/engine/install/">Docker</a></li>
 <p>Once installed, confirm it is working by running:</p>
 <pre><code>docker run hello-world</code></pre>
-Next, build and start the services defined in the docker-compose.yml file:
+Next, build and start the services defined in the <a href="https://github.com/eurooooo/UMassGrades/blob/main/UMassGrades/docker-compose.yml">docker-compose.yml file</a>:
 <pre><code>docker-compose up --build</code></pre>
 <li><a href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">Java Version 17</a></li>
 <li><a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a></li>
