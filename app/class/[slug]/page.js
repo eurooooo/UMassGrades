@@ -13,11 +13,12 @@ import Link from "next/link";
 const classInfo = {
   classId: "CS200",
   className: "Operating System",
-  description: "Rigorous analysis of algorithms/implementation.",
+  description:
+    "A fundamental overview of operating systems (OSes) with an emphasis on practice. Topics covered include: OS structure, OS models, OS abstractions.",
   profs: [
     {
       profId: 1,
-      profName: "Alex AA",
+      profName: "Alex Lin",
       grades: [
         { grade: "A", count: 5 },
         { grade: "A-", count: 4 },
@@ -34,7 +35,7 @@ const classInfo = {
     },
     {
       profId: 2,
-      profName: "Bob BB",
+      profName: "Francesco Pfeffer",
       grades: [
         { grade: "A", count: 5 },
         { grade: "A-", count: 4 },

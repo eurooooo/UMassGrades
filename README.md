@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,6 +36,12 @@ searching across classes and professors, delivering relevant results efficiently
     <p>Clone the repository:</p>
     <pre><code>git clone https://github.com/eurooooo/UMassGrades.git
 cd UMassGrades</code></pre>
+<p>Run frontend:</p>
+<pre><code>npm run dev
+npm install
+</code></pre>
+<p>Run backend:</p>
+<p>Open "UMassGrades" foleder inside the project root folder in Intellij, and run "UMassGradesApplication.java"</p>
     <h2>Dependencies to Install:</h2>
 <li><a href="https://docs.docker.com/engine/install/">Docker</a></li>
 <p>Once installed, run:</p>

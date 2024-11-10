@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const professors = {
   profId: 1,
-  profName: "Alex",
+  profName: "Alex Lin",
   classes: [
     {
       classId: "CS200",

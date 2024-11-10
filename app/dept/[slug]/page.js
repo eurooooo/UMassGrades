@@ -18,8 +18,8 @@ const departments = {
       classId: "CS200",
       className: "Operating System",
       grades: [
-        { grade: "A", count: 3 },
-        { grade: "A-", count: 2 },
+        { grade: "A", count: 10 },
+        { grade: "A-", count: 8 },
         { grade: "B+", count: 4 },
         { grade: "B", count: 5 },
         { grade: "B-", count: 2 },
@@ -34,6 +34,23 @@ const departments = {
     {
       classId: "CS300",
       className: "Algorithms",
+      grades: [
+        { grade: "A", count: 6 },
+        { grade: "A-", count: 4 },
+        { grade: "B+", count: 5 },
+        { grade: "B", count: 3 },
+        { grade: "B-", count: 2 },
+        { grade: "C+", count: 3 },
+        { grade: "C", count: 1 },
+        { grade: "C-", count: 1 },
+        { grade: "D+", count: 0 },
+        { grade: "D", count: 1 },
+        { grade: "F", count: 1 },
+      ],
+    },
+    {
+      classId: "CS400",
+      className: "Databases",
       grades: [
         { grade: "A", count: 6 },
         { grade: "A-", count: 4 },
