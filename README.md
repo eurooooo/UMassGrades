@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <img src="READMEResources/UMassGrades.jpeg" alt="UMass Grades" />
+    <img src="READMEResources/UMassGrades1.jpeg" alt="UMass Grades" />
+    <img src="READMEResources/UMassGrades2.png" alt="UMass Grades" />
     <h1>UMassGrades</h1>
     <p><strong>UMassGrades</strong> is a web application that allows University of Massachusetts
     students to look at previous years' grade distributions for their classes
