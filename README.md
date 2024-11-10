@@ -53,7 +53,7 @@ Next, build and start the services defined in the <a href="https://github.com/eu
 <li>Password: secret</li>
 <li>Port:5432 (Ensure nothing else is running on this port)</li>
 <h3>Running the Backend:</h3>
-<li>Within Intellij, run the application</li>
+<li>Within Intellij, run <a href="UMassGrades/src/test/java/com/jemeny/umassgrades/UMassGradesApplicationTests.java">the application</a></li>
     Go to localhost:8080 to confirm it is working (Make sure nothing else is running on that port)
 <h3>Running the Frontend:</h3>
 <pre><code>npm run dev
