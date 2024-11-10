@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,22 +34,31 @@ we generated mock data using the <strong>JavaFaker library</strong>, creating re
 implemented debouncing in the search bar, which optimizes performance by reducing unnecessary search operations as users type. This allows for faster, more responsive 
 searching across classes and professors, delivering relevant results efficiently.</p></p>
     <h2>To run this application locally:</h2>
-    <p>Clone the repository:</p>
+    <h3>Clone the repository:</h3>
     <pre><code>git clone https://github.com/eurooooo/UMassGrades.git
 cd UMassGrades</code></pre>
-<p>Run frontend:</p>
-<pre><code>
-npm install
-npm run dev
-</code></pre>
-<p>Run backend:</p>
-<p>Open "UMassGrades" foleder inside the project root folder in <strong>Intellij</strong>, install all the dependencies and run "UMassGradesApplication.java"</p>
-    <h2>Dependencies to Install:</h2>
+    <h3>Dependencies to Install:</h3>
 <li><a href="https://docs.docker.com/engine/install/">Docker</a></li>
-<p>Once installed, run:</p>
+<p>Once installed, confirm it is working by running:</p>
+<pre><code>docker run hello-world</code></pre>
+Next, build and start the services defined in the docker-compose.yml file:
 <pre><code>docker-compose up --build</code></pre>
 <li><a href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">Java Version 17</a></li>
-    <h2>Contributing</h2>
+<li><a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a></li>
+<h3>Setting up the Database:</h3>
+<li><a href="https://www.jetbrains.com/idea/">Create a Database Source in Intellij</a></li>
+<li>Name the Database "umassgrades"</li>
+<li>Username: postgres</li>
+<li>Password: secret</li>
+<li>Port:5432 (Ensure nothing else is running on this port)</li>
+<h3>Running the Backend:</h3>
+<li>Within Intellij, run the application</li>
+    Go to localhost 8080 to confirm it is working (Make sure nothing else is running on that port)
+<h3>Running the Frontend:</h3>
+<pre><code>npm run dev
+npm run install</code></pre>
+Go to localhost:3000 to confirm everything is working (Make sure nothing else is running on that port)
+<h2>Contributing</h2>
     <p>We welcome contributions! Please open an issue or submit a pull request if you have a feature idea, bug fix, or enhancement.</p>
     <h3>Development Setup</h3>
     <ol>
