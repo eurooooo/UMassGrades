@@ -1,4 +1,8 @@
 
+drop table if exists classes cascade;
+drop table if exists departments cascade;
+drop table if exists professors cascade;
+drop table if exists professor_classes cascade;
 
 CREATE TABLE classes (
                          class_id SERIAL PRIMARY KEY,           -- Unique identifier for each class
@@ -10,6 +14,10 @@ CREATE TABLE departments (
                              department_name VARCHAR(100) NOT NULL,    -- Name of the department, required field
                              class_id INT REFERENCES classes(class_id) -- Foreign key referencing class_id in the classes table
 );
+CREATE TABLE professors (
+                              professor_id SERIAL PRIMARY KEY, -- Unique identifier for each professor
+                              professor_name VARCHAR(100) NOT NULL -- Name of the professor, required field
+);
 CREATE TABLE professor_classes (
                                    professor_id INT NOT NULL,                    -- ID of the professor
                                    class_id INT NOT NULL,                        -- ID of the class
@@ -19,7 +27,24 @@ CREATE TABLE professor_classes (
                                    FOREIGN KEY (professor_id) REFERENCES professors(professor_id),
                                    FOREIGN KEY (class_id) REFERENCES classes(class_id)
 );
-CREATE TABLE professors (
-                            professor_id SERIAL PRIMARY KEY, -- Unique identifier for each professor
-                            professor_name VARCHAR(100) NOT NULL -- Name of the professor, required field
-);
+
+INSERT INTO professors  (
+    professor_id, professor_name
+) VALUES (1, 'Alex');
+
+
+-- DROP TABLE IF EXISTS Course;
+--
+-- CREATE TABLE Course(
+--                        id SERIAL,
+--                        p_name VARCHAR(50),
+--                        min DOUBLE PRECISION,
+--                        max DOUBLE PRECISION,
+--                        mean DOUBLE PRECISION,
+--                        median DOUBLE PRECISION,
+--                        s_dev DOUBLE PRECISION,
+--                        PRIMARY KEY(id)
+-- );
+--
+-- INSERT INTO Course(p_name, min, max, mean, median, s_dev)
+-- VALUES('Fletcher Bisceps',73.808,97.578,75.874919,77.867033,2.725235);
