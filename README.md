@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <img src="READMEResources/UMassGrades.jpeg" alt="UMass Grades" />
     <h1>UMassGrades</h1>
     <p><strong>UMassGrades</strong> is a web application that allows University of Massachusetts
     students to look at previous years' grade distributions for their classes
@@ -53,7 +54,7 @@ Next, build and start the services defined in the <a href="https://github.com/eu
 <li>Port:5432 (Ensure nothing else is running on this port)</li>
 <h3>Running the Backend:</h3>
 <li>Within Intellij, run the application</li>
-    Go to localhost 8080 to confirm it is working (Make sure nothing else is running on that port)
+    Go to localhost:8080 to confirm it is working (Make sure nothing else is running on that port)
 <h3>Running the Frontend:</h3>
 <pre><code>npm run dev
 npm run install</code></pre>
