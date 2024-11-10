@@ -1,1 +1,9 @@
 # UMassGrades
+Inspiration:
+We drew inspiration from Gopher Grades, a platform widely used at the University of Minnesota that has over 50,000 users. Noticing that UMass Amherst lacks a similar resource, we wanted to create a tool to help students make more informed decisions when choosing courses or instructors. Our platform will enable students to view grade distributions, averages, and most common grade for each course and professor—information that can play a crucial role in academic planning.
+
+What it does:
+Our platform replicates and enhances the functionalities found on Gopher Grades. Users can type a course code/name, professor name, or department into the search bar to quickly access relevant results. For each course, users can view the instructors who have taught it, along with detailed grade distributions, the average grade, and the most common grade. If a professor is searched, students can view all courses taught by that professor, along with similar grade data. Departmental searches are also supported, making it easy for users to explore courses within a particular field. This tool is designed to give students a comprehensive view of academic history at UMass Amherst.
+
+How we built it:
+We developed the frontend using Next.js with JavaScript, HTML, CSS, and Tailwind CSS for styling, and built the backend with Java Spring Boot and Spring JDBC. We containerized the application using Docker to ensure easy deployment, and we use PostgreSQL as our database. Since we don’t yet have access to real UMass grade data, we generated mock data using the JavaFaker library, creating realistic sample records for courses, professors, and departments. To enhance the user experience, we implemented debouncing in the search bar, which optimizes performance by reducing unnecessary search operations as users type. This allows for faster, more responsive searching across classes and professors, delivering relevant results efficiently.
